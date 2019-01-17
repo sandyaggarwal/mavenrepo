@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.adobe.fidelity</groupId>
+  <artifactId>fidelity.ui.apps</artifactId>
+  <versioning>
+    <versions>
+      <version>1.0-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20181220163213</lastUpdated>
+  </versioning>
+</metadata>

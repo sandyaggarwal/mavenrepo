@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.adobe.granite.archetypes</groupId>
+  <artifactId>aem-project-archetype</artifactId>
+  <versioning>
+    <versions>
+      <version>16-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20181220163537</lastUpdated>
+  </versioning>
+</metadata>

@@ -1,0 +1,5 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Thu Dec 20 21:36:52 IST 2018
+@default-artifactory-releases-https\://artifactory.corp.adobe.com/artifactory/maven-aem-dev/.lastUpdated=1545322011766
+https\://repo.adobe.com/nexus/content/groups/public/.lastUpdated=1545322012691
+https\://artifactory.corp.adobe.com/artifactory/maven-aem-dev/.error=Could not transfer artifact com.day.cq\:parent\:pom\:36 from/to artifactory-releases (https\://artifactory.corp.adobe.com/artifactory/maven-aem-dev)\: Not authorized , ReasonPhrase\:Unauthorized.

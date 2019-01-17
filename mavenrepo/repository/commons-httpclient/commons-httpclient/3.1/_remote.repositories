@@ -1,0 +1,4 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Thu Dec 20 21:33:30 IST 2018
+commons-httpclient-3.1.jar>artifactory-releases=
+commons-httpclient-3.1.pom>artifactory-releases=

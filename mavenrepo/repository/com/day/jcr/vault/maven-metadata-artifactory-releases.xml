@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <plugins>
+    <plugin>
+      <name>Adobe File Vault Maven Plugin</name>
+      <prefix>vault</prefix>
+      <artifactId>maven-vault-plugin</artifactId>
+    </plugin>
+  </plugins>
+</metadata>

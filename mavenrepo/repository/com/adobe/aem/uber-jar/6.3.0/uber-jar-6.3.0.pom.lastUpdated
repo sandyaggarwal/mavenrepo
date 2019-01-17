@@ -1,0 +1,5 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Thu Dec 20 21:34:14 IST 2018
+@default-artifactory-releases-https\://artifactory.corp.adobe.com/artifactory/maven-aem-dev/.lastUpdated=1545321853454
+https\://repo.adobe.com/nexus/content/groups/public/.lastUpdated=1545321854686
+https\://artifactory.corp.adobe.com/artifactory/maven-aem-dev/.error=Could not transfer artifact com.adobe.aem\:uber-jar\:pom\:6.3.0 from/to artifactory-releases (https\://artifactory.corp.adobe.com/artifactory/maven-aem-dev)\: Not authorized , ReasonPhrase\:Unauthorized.

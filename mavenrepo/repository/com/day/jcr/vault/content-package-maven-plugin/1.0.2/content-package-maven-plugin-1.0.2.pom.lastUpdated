@@ -1,0 +1,5 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Thu Dec 20 21:33:01 IST 2018
+@default-artifactory-releases-https\://artifactory.corp.adobe.com/artifactory/maven-aem-dev/.lastUpdated=1545321780024
+https\://repo.adobe.com/nexus/content/groups/public/.lastUpdated=1545321781981
+https\://artifactory.corp.adobe.com/artifactory/maven-aem-dev/.error=Could not transfer artifact com.day.jcr.vault\:content-package-maven-plugin\:pom\:1.0.2 from/to artifactory-releases (https\://artifactory.corp.adobe.com/artifactory/maven-aem-dev)\: Not authorized , ReasonPhrase\:Unauthorized.
