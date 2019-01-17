@@ -1,0 +1,4 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Thu Dec 20 21:32:57 IST 2018
+org.apache.jackrabbit.vault-3.1.42.jar>artifactory-releases=
+org.apache.jackrabbit.vault-3.1.42.pom>artifactory-releases=

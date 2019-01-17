@@ -1,0 +1,4 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Thu Dec 20 21:38:44 IST 2018
+org.apache.sling.testing.tools-1.0.8.jar>artifactory-releases=
+org.apache.sling.testing.tools-1.0.8.pom>artifactory-releases=

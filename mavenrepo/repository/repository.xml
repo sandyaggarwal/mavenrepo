@@ -1,0 +1,142 @@
+<repository lastmodified='20181220100535.981'>
+  <resource id='com.adobe.fidelity.core/1.0.0.SNAPSHOT' symbolicname='com.adobe.fidelity.core' presentationname='fidelity - Core' uri='com/adobe/fidelity/fidelity.core/1.0-SNAPSHOT/fidelity.core-1.0-SNAPSHOT.jar' version='1.0.0.SNAPSHOT'>
+    <description>Core bundle for fidelity</description>
+    <size>13607</size>
+    <capability name='bundle'>
+      <p n='symbolicname' v='com.adobe.fidelity.core'/>
+      <p n='presentationname' v='fidelity - Core'/>
+      <p n='version' t='version' v='1.0.0.SNAPSHOT'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.adobe.fidelity.core.filters'/>
+      <p n='version' t='version' v='1.0.0'/>
+      <p n='uses:' v='javax.servlet'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.adobe.fidelity.core.servlets'/>
+      <p n='version' t='version' v='1.0.0'/>
+      <p n='uses:' v='javax.servlet,org.apache.sling.api,org.apache.sling.api.servlets'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.adobe.fidelity.core.models'/>
+      <p n='version' t='version' v='1.0.0'/>
+      <p n='uses:' v='javax.annotation,javax.inject,org.apache.sling.api.resource,org.apache.sling.models.annotations'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.adobe.fidelity.core'/>
+      <p n='version' t='version' v='1.0.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.adobe.fidelity.core.listeners'/>
+      <p n='version' t='version' v='1.0.0'/>
+      <p n='uses:' v='org.osgi.service.event'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.adobe.fidelity.core.schedulers'/>
+      <p n='version' t='version' v='1.0.0'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=javax.inject))' extend='false' multiple='false' optional='false'>Import package javax.inject;version=0.0.0</require>
+    <require name='package' filter='(&amp;(package=javax.annotation))' extend='false' multiple='false' optional='false'>Import package javax.annotation</require>
+    <require name='package' filter='(&amp;(package=javax.servlet))' extend='false' multiple='false' optional='false'>Import package javax.servlet</require>
+    <require name='package' filter='(&amp;(package=org.apache.sling.api)(version&gt;=2.3.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package org.apache.sling.api;version="[2.3,3)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.sling.api.request)(version&gt;=2.4.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package org.apache.sling.api.request;version="[2.4,3)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.sling.api.resource)(version&gt;=2.10.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package org.apache.sling.api.resource;version="[2.10,3)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.sling.api.servlets)(version&gt;=2.2.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package org.apache.sling.api.servlets;version="[2.2,3)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.sling.models.annotations)(version&gt;=1.4.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.apache.sling.models.annotations;version="[1.4,2)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.sling.settings)(version&gt;=1.3.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.apache.sling.settings;version="[1.3,2)"</require>
+    <require name='package' filter='(&amp;(package=org.osgi.service.event)(version&gt;=1.3.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.osgi.service.event;version="[1.3,2)"</require>
+    <require name='package' filter='(&amp;(package=org.slf4j)(version&gt;=1.7.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.slf4j;version="[1.7,2)"</require>
+  </resource>
+  <resource id='com.adobe.fidelity.it.tests/1.0.0.SNAPSHOT' symbolicname='com.adobe.fidelity.it.tests' presentationname='fidelity - Integration Tests Bundles' uri='com/adobe/fidelity/fidelity.it.tests/1.0-SNAPSHOT/fidelity.it.tests-1.0-SNAPSHOT.jar' version='1.0.0.SNAPSHOT'>
+    <description>Bundles for Integration Tests for fidelity</description>
+    <size>8761</size>
+    <capability name='bundle'>
+      <p n='symbolicname' v='com.adobe.fidelity.it.tests'/>
+      <p n='presentationname' v='fidelity - Integration Tests Bundles'/>
+      <p n='version' t='version' v='1.0.0.SNAPSHOT'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.adobe.fidelity.it.tests'/>
+      <p n='version' t='version' v='1.0.0'/>
+      <p n='uses:' v='org.apache.sling.junit.annotations,org.junit,org.junit.runner'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=com.adobe.fidelity.core.models)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package com.adobe.fidelity.core.models;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.sling.api.resource)(version&gt;=2.10.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package org.apache.sling.api.resource;version="[2.10,3)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.sling.junit.annotations)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.apache.sling.junit.annotations;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.sling.settings)(version&gt;=1.3.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.apache.sling.settings;version="[1.3,2)"</require>
+    <require name='package' filter='(&amp;(package=org.junit)(version&gt;=4.8.0)(!(version&gt;=5.0.0)))' extend='false' multiple='false' optional='false'>Import package org.junit;version="[4.8,5)"</require>
+    <require name='package' filter='(&amp;(package=org.junit.runner)(version&gt;=4.8.0)(!(version&gt;=5.0.0)))' extend='false' multiple='false' optional='false'>Import package org.junit.runner;version="[4.8,5)"</require>
+  </resource>
+  <resource id='archetype.it.basic.core/0.1.0.SNAPSHOT' symbolicname='archetype.it.basic.core' presentationname='Test Multimodule Project - Core' uri='archetype/it/basic.core/0.1-SNAPSHOT/basic.core-0.1-SNAPSHOT.jar' version='0.1.0.SNAPSHOT'>
+    <description>Core bundle for Test Multimodule Project</description>
+    <size>14605</size>
+    <capability name='bundle'>
+      <p n='symbolicname' v='archetype.it.basic.core'/>
+      <p n='presentationname' v='Test Multimodule Project - Core'/>
+      <p n='version' t='version' v='0.1.0.SNAPSHOT'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.day.jcr.vault.maven.testing.core.filters'/>
+      <p n='version' t='version' v='0.1.0'/>
+      <p n='uses:' v='javax.servlet'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.day.jcr.vault.maven.testing.core.servlets'/>
+      <p n='version' t='version' v='0.1.0'/>
+      <p n='uses:' v='javax.servlet,org.apache.sling.api,org.apache.sling.api.servlets'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.day.jcr.vault.maven.testing.core.models'/>
+      <p n='version' t='version' v='0.1.0'/>
+      <p n='uses:' v='javax.annotation,javax.inject,org.apache.sling.api.resource,org.apache.sling.models.annotations'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.day.jcr.vault.maven.testing.core'/>
+      <p n='version' t='version' v='1.0.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.day.jcr.vault.maven.testing.core.listeners'/>
+      <p n='version' t='version' v='0.1.0'/>
+      <p n='uses:' v='org.osgi.service.event'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.day.jcr.vault.maven.testing.core.schedulers'/>
+      <p n='version' t='version' v='0.1.0'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=javax.inject))' extend='false' multiple='false' optional='false'>Import package javax.inject;version=0.0.0</require>
+    <require name='package' filter='(&amp;(package=javax.annotation))' extend='false' multiple='false' optional='false'>Import package javax.annotation</require>
+    <require name='package' filter='(&amp;(package=javax.servlet))' extend='false' multiple='false' optional='false'>Import package javax.servlet</require>
+    <require name='package' filter='(&amp;(package=org.apache.sling.api)(version&gt;=2.3.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package org.apache.sling.api;version="[2.3,3)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.sling.api.request)(version&gt;=2.4.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package org.apache.sling.api.request;version="[2.4,3)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.sling.api.resource)(version&gt;=2.10.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package org.apache.sling.api.resource;version="[2.10,3)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.sling.api.servlets)(version&gt;=2.2.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package org.apache.sling.api.servlets;version="[2.2,3)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.sling.models.annotations)(version&gt;=1.4.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.apache.sling.models.annotations;version="[1.4,2)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.sling.settings)(version&gt;=1.3.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.apache.sling.settings;version="[1.3,2)"</require>
+    <require name='package' filter='(&amp;(package=org.osgi.service.event)(version&gt;=1.3.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.osgi.service.event;version="[1.3,2)"</require>
+    <require name='package' filter='(&amp;(package=org.slf4j)(version&gt;=1.7.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.slf4j;version="[1.7,2)"</require>
+  </resource>
+  <resource id='archetype.it.basic.it.tests/0.1.0.SNAPSHOT' symbolicname='archetype.it.basic.it.tests' presentationname='Test Multimodule Project - Integration Tests Bundles' uri='archetype/it/basic.it.tests/0.1-SNAPSHOT/basic.it.tests-0.1-SNAPSHOT.jar' version='0.1.0.SNAPSHOT'>
+    <description>Bundles for Integration Tests for Test Multimodule Project</description>
+    <size>9417</size>
+    <capability name='bundle'>
+      <p n='symbolicname' v='archetype.it.basic.it.tests'/>
+      <p n='presentationname' v='Test Multimodule Project - Integration Tests Bundles'/>
+      <p n='version' t='version' v='0.1.0.SNAPSHOT'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.day.jcr.vault.maven.testing.it.tests'/>
+      <p n='version' t='version' v='0.1.0'/>
+      <p n='uses:' v='org.apache.sling.junit.annotations,org.junit,org.junit.runner'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=com.day.jcr.vault.maven.testing.core.models)(version&gt;=0.1.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='false'>Import package com.day.jcr.vault.maven.testing.core.models;version="[0.1,1)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.sling.api.resource)(version&gt;=2.10.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package org.apache.sling.api.resource;version="[2.10,3)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.sling.junit.annotations)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.apache.sling.junit.annotations;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.sling.settings)(version&gt;=1.3.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.apache.sling.settings;version="[1.3,2)"</require>
+    <require name='package' filter='(&amp;(package=org.junit)(version&gt;=4.8.0)(!(version&gt;=5.0.0)))' extend='false' multiple='false' optional='false'>Import package org.junit;version="[4.8,5)"</require>
+    <require name='package' filter='(&amp;(package=org.junit.runner)(version&gt;=4.8.0)(!(version&gt;=5.0.0)))' extend='false' multiple='false' optional='false'>Import package org.junit.runner;version="[4.8,5)"</require>
+  </resource>
+</repository>

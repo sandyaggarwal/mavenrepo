@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <plugins>
+    <plugin>
+      <name>Apache Sling HTL Maven Plugin</name>
+      <prefix>htl</prefix>
+      <artifactId>htl-maven-plugin</artifactId>
+    </plugin>
+    <plugin>
+      <name>Apache Sling Java Version Maven Plugin</name>
+      <prefix>javaversion</prefix>
+      <artifactId>javaversion-maven-plugin</artifactId>
+    </plugin>
+    <plugin>
+      <name>Apache Sling Maven Plugin for Compiling JSP Sources into Bundles</name>
+      <prefix>jspc</prefix>
+      <artifactId>jspc-maven-plugin</artifactId>
+    </plugin>
+    <plugin>
+      <name>Sling - Maven Plugin to create Jackrabbit OCM descriptors</name>
+      <prefix>jcrocm</prefix>
+      <artifactId>maven-jcrocm-plugin</artifactId>
+    </plugin>
+    <plugin>
+      <name>Sling - Maven Plugin for Compiling JSP Sources into Bundles</name>
+      <prefix>jspc</prefix>
+      <artifactId>maven-jspc-plugin</artifactId>
+    </plugin>
+    <plugin>
+      <name>Apache Sling Maven Plugin for Compiling JSP Sources into Bundles</name>
+      <prefix>jspc</prefix>
+      <artifactId>maven-jspc-plugin</artifactId>
+    </plugin>
+    <plugin>
+      <name>Apache Sling Launchpad Maven Plugin</name>
+      <prefix>launchpad</prefix>
+      <artifactId>maven-launchpad-plugin</artifactId>
+    </plugin>
+    <plugin>
+      <name>Apache Sling Maven Sling Plugin</name>
+      <prefix>sling</prefix>
+      <artifactId>maven-sling-plugin</artifactId>
+    </plugin>
+    <plugin>
+      <name>Apache Sling Maven Plugin for Supporting Bundle Development</name>
+      <prefix>sling</prefix>
+      <artifactId>maven-sling-plugin</artifactId>
+    </plugin>
+    <plugin>
+      <name>Apache Sling OSGi Feature Maven Plugin</name>
+      <prefix>slingfeature</prefix>
+      <artifactId>slingfeature-maven-plugin</artifactId>
+    </plugin>
+    <plugin>
+      <name>Apache Sling SlingStart Maven Plugin</name>
+      <prefix>slingstart</prefix>
+      <artifactId>slingstart-maven-plugin</artifactId>
+    </plugin>
+  </plugins>
+</metadata>

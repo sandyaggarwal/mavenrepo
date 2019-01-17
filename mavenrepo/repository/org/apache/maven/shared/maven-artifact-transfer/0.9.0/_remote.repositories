@@ -1,0 +1,4 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Thu Dec 20 21:39:50 IST 2018
+maven-artifact-transfer-0.9.0.jar>artifactory-releases=
+maven-artifact-transfer-0.9.0.pom>artifactory-releases=

@@ -1,0 +1,4 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Thu Dec 20 21:35:40 IST 2018
+org.apache.sling.models.impl-1.2.2.jar>artifactory-releases=
+org.apache.sling.models.impl-1.2.2.pom>artifactory-releases=
